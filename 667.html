@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulike Product Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-image: url('http://47.239.174.14/UI06_Failed.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 800px;
+            width: 90%;
+        }
+        .warning {
+            color: #ff0000;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 15px;
+            }
+            .warning {
+                font-size: 20px;
+            }
+            .note {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <div class="warning">验证失败</div>
+        <p class="note">
+            无法查询到您的产品，请联系客户服务，验证该产品的真伪。
+        </p >
+        <p class="note">感谢您使用Ulike系列产品。</p >
+    </div>
+</div>
+
+</body>
+</html>
